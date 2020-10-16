@@ -13,7 +13,7 @@ print("Clave D...")
 
 # ejercicio 1 -->
 result = multiplicar()
-if result == 8:
+if result == 24:
     print("ejercicio01: pass")
 else:
     print("ejercicio01: fail")
@@ -21,7 +21,7 @@ else:
 
 # ejercicio 2 -->
 result = sumaDivTresYCincoPlus()
-if result == 8:
+if result == 100500:
     print("ejercicio02: pass")
 else:
     print("ejercicio02: fail")
@@ -29,7 +29,7 @@ else:
 
 # ejercicio 3 -->
 result = definicionOrtoedro()
-if result == 8:
+if result == {"area": 280, "volumen": 300}:
     print("ejercicio03: pass")
 else:
     print("ejercicio03: fail")
@@ -38,7 +38,7 @@ else:
 # ejercicio 4 -->
 ortoedro = Ortoedro()
 result = ortoedro.definicionOrtoedro()
-if result == 8:
+if result == {"area": 280, "volumen": 300}:
     print("ejercicio04: pass")
 else:
     print("ejercicio04: fail")

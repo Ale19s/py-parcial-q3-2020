@@ -21,7 +21,7 @@ else:
 
 # ejercicio 2 -->
 result = sumaDivTresYCinco()
-if result == 8:
+if result == 33165:
     print("ejercicio02: pass")
 else:
     print("ejercicio02: fail")
@@ -29,7 +29,11 @@ else:
 
 # ejercicio 3 -->
 result = definicionCono()
-if result == 8:
+if result == {
+    "generatriz": 12.083045973594572,
+    "area": 268.33985865790703,
+    "volumen": 287.9793265790644,
+}:
     print("ejercicio03: pass")
 else:
     print("ejercicio03: fail")
@@ -38,7 +42,11 @@ else:
 # ejercicio 4 -->
 cono = Cono()
 result = cono.definicionCono()
-if result == 8:
+if result == {
+    "generatriz": 12.083045973594572,
+    "area": 268.33985865790703,
+    "volumen": 287.9793265790644,
+}:
     print("ejercicio04: pass")
 else:
     print("ejercicio04: fail")
