@@ -9,8 +9,12 @@ un metodo python que haga la multiplicacion de 3 numeros
 
 
 # start-->
-def multiplicar():
-    return 0
+numero1 = 2
+numero2 = 4
+numero3 = 3
+def multiplicar(numero1, numero2, numero3):
+    producto = numero1*numero2*numero3
+    return producto
 
 
 """
@@ -22,8 +26,18 @@ la suma de los numeros divisibles entre 3 y 5 del 1000 al 2000
 
 # start-->
 def sumaDivTresYCincoPlus():
-    result = 0
-    return result
+    a = 1000
+    suma = 0
+  while a<=2000
+     div3 = i%3
+     div5 = i%5
+   if div3 == 0 and div5 == 0
+        suma +=a
+        a+=1
+   else
+        a+=1
+    result = suma  
+ return result
 
 
 """
@@ -40,33 +54,48 @@ volumen: V = longitud · latitud · altura
 
 
 # start-->
-def definicionOrtoedro():
-    result = 0
-    return result
+def definicionOrtoedro(longitud, latitud, altura)
+     longitud = 10
+     latitud = 6
+     altura = 5
+    obtenerArea()
+    obtenerVolumen()
 
 
 def obtenerArea():
-    result = 0
+    definicionOrtoedro()
+    result = 2(longitud · latitud + longitud · altura + latitud · altura)
     return result
 
 
 def obtenerVolumen():
-    result = 0
+    definicionOrtoedro()
+    result = longitud · latitud · altura
     return result
 
 
 """
 ***************************************************************
-@@ ejercicio 4 @@
-el ejercicio numero 3 convertirlo en una clase
+@@ ejercicio 4 @@el ejercicio numero 3 convertirlo en una clase
 
 """
 
 
 # start-->
 class Ortoedro:
-    def definicionOrtoedro(self):
-        return 0
+    def definicionOrtoedro(self, longitud, latitud, altura): 
+        self.lonitud = longitud
+        self.latitud = latitud
+        self.altura = altura
+        
+    def areaOrtoedro (self):
+        result = 2(longitud · latitud + longitud · altura + latitud · altura)
+    return result
+
+    def volumenOrtoedro (self):
+        result = longitud · latitud · altura
+    return result
+        
 
 
 """
@@ -106,6 +135,7 @@ class Computadora:
 @@ ejercicio 6 @@
 colocar este proyecto en github
 colocar aca debajo la url
+https://github.com/baylagas/py-parcial-q3-2020/edit/master/clave_D/clave_d.py
 ademas colocar la url en un archivo
 github_<nombre>_<codigo>.txt y subirlo a moodle
 """
